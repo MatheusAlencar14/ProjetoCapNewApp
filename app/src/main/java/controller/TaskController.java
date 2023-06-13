@@ -109,7 +109,7 @@ public class TaskController {
     }
     
     public List<Task> getAll(int idProject) {
-        String sql = "SELECT * FROM tasks WHERE idProjec = ?, ";
+        String sql = "SELECT * FROM tasks WHERE idProject = ?";
         Connection connection = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
