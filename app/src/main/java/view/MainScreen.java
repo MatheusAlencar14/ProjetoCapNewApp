@@ -222,7 +222,8 @@ public class MainScreen extends javax.swing.JFrame {
         jListProjects.setForeground(new java.awt.Color(0, 153, 153));
         jListProjects.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jListProjects.setFixedCellHeight(30);
-        jListProjects.setSelectionBackground(new java.awt.Color(0, 153, 153));
+        jListProjects.setSelectionBackground(new java.awt.Color(0, 102, 102));
+        jListProjects.setSelectionForeground(new java.awt.Color(255, 255, 255));
         jScrollPaneProjects.setViewportView(jListProjects);
 
         javax.swing.GroupLayout jPanelProjectsListLayout = new javax.swing.GroupLayout(jPanelProjectsList);
@@ -248,7 +249,7 @@ public class MainScreen extends javax.swing.JFrame {
         jScrollPaneTasks.setBackground(new java.awt.Color(255, 255, 255));
 
         jTableTasks.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jTableTasks.setForeground(new java.awt.Color(0, 153, 153));
+        jTableTasks.setForeground(new java.awt.Color(0, 102, 102));
         jTableTasks.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -278,6 +279,7 @@ public class MainScreen extends javax.swing.JFrame {
         jTableTasks.setGridColor(new java.awt.Color(255, 255, 255));
         jTableTasks.setRowHeight(30);
         jTableTasks.setSelectionBackground(new java.awt.Color(0, 102, 102));
+        jTableTasks.setSelectionForeground(new java.awt.Color(255, 255, 255));
         jTableTasks.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPaneTasks.setViewportView(jTableTasks);
 
